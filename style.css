@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #212121;
+}
+.profileContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innerDiv {
+  display: flex;
+  align-items: center;
+  margin: 1rem;
+  width: 21%;
+  box-shadow: 2px 2px 2px 2px black;
+}
+
+.innerDiv img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.innerDiv div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0.5rem;
+}
+.header{
+    width: 97%;
+    justify-content: space-between;
+    height: 3vh;
+     background-color: #212121;
+     color: white;
+    display: flex;
+}
+.navbar{
+    justify-content: space-between;
+   
+    
+    display: flex;
+    width: 13%;
+}
+.maindiv{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    height: 3vh;
+   
+}
+.maindiv button{
+    background-color: black;
+    color: white;
+    border: 3px solid #212121;
+    background-color: #212121;
+}
+#searchBox{
+    margin-top: 8px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 20%;
+    border-radius: 5px;
+    outline: none;
+     background-color: white;
+}
+#searchButton{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    height: 45px;
+    width: 5.4%;
+    margin-left: -19px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: 3px solid rgb(133, 126, 126);
+}
